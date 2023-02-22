@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home"></item>
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile"
+            android:title="Profile"></item>
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout"></item>
+    </group>
+
+    <item android:title=" ">
+        <menu>
+            <item
+                android:id="@+id/dinner_reservation"
+                android:icon="@drawable/dinner_reservation"
+                android:title="Dinner Reservations"></item>
+            <item
+                android:id="@+id/room_service"
+                android:icon="@drawable/room_service"
+                android:title="Room Service"></item>
+            <item
+                android:id="@+id/spa"
+                android:icon="@drawable/spa"
+                android:title="Spa"></item>
+            <item
+                android:id="@+id/explore"
+                android:icon="@drawable/explore"
+                android:title="Explore Kildare"></item>
+            <item
+                android:id="@+id/weather"
+                android:icon="@drawable/weather"
+                android:title="Weather"></item>
+        </menu>
+    </item>
+</menu>
